@@ -37,6 +37,7 @@ math = high - "5";
 // A: ? Weird because 5 is in quotes which should make
 // it a string... so I'm not sure if it would figure out
 // 45 or throw an error
+// I just tried it out & math = 45. I need to read a bit more about why this works...
 
 
 // 7.
@@ -92,7 +93,8 @@ let y = (false == "");
 
 // 13.
 let z = (0 == "");
-// A. false
+// A. false <-- I got this one wrong, but get it now - the expression is true because 0 and ""
+// both evaluate to false so false = false would be true.
 
 
 // 14.
